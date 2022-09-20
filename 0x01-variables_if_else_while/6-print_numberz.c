@@ -15,4 +15,4 @@ int main(void)
 	/*printing output*/	
 	putchar('\n');
 	return (0);
-}
+	}
