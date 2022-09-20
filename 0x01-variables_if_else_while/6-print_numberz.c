@@ -12,7 +12,7 @@ int main(void)
 	/*function*/
 	for (i = 48; i < 58; i++)
 		putchar(i);
-        /*printing output*/	
+	/*printing output*/	
 	putchar('\n');
 	return (0);
 }
