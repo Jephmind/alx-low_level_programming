@@ -1,24 +1,21 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: This code prints alpabets from a to z in upper and lower cases
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	/*Declaring variables*/
-	char i;
-	
-	for (i = 'a' ; i <= 'z' ; i++)
-	{/*printing lowercase*/
-	putchar(i);
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
 	}
-	for (i = 'A' ; i <= 'Z' ; i++)
-	{/*printing uppercase*/
-	putchar(i);
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	{
+		putchar(alphabet);
 	}
-	/*printing new line and return*/
 	putchar('\n');
 	return (0);
 }
