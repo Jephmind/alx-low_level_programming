@@ -7,7 +7,7 @@
  */
 void jack_bauer(void)
 {
-  nt hours = 0;
+	int hours = 0;
 	int minutes = 0;
 	int hours_remainder;
 	int mins_remainder;
@@ -25,7 +25,7 @@ void jack_bauer(void)
 			minutes++;
 			_putchar('\n');
 		}
-    hours++;
+		hours++;
 		minutes = 0;
 	}
 
