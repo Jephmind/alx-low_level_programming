@@ -1,1 +1,1 @@
-s readme provides the descriptions of the various shells and what they do
+Starting C programming
