@@ -1,1 +1,1 @@
-In this project, I learned about compilation using gcc, entry points using main, and text-printing functions in C. GCC is basically a C compiler.
+For the C -Hello world task C language
