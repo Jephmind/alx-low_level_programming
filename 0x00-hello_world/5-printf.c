@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - The main is the body of the code
- *
- * Return: Returns an integer value
-*/
+  * main - Prints a text
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
-	char a[] = "with proper grammar, but the outcome is a piece of art,";
-
-	printf("%s\n", a);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
